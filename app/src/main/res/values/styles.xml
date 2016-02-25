@@ -1,5 +1,27 @@
 <resources>
 
+    <style name="GeneralText" parent="@android:style/TextAppearance">
+        <!--<item name="android:textSize">20sp</item>-->
+        <!--<item name="android:textColor">#0000F0</item>-->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="GeneralText.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GeneralText.Bold.Red">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <color name="custom_color">#b0b0ff</color>
+    <style name="MyTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">#ffb0b0</item>
+        <item name="android:windowBackground">@color/custom_color</item>
+        <item name="android:colorBackground">@color/custom_color</item>
+    </style>
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
